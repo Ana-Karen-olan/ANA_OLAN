@@ -1,0 +1,18 @@
+# Archivos específicos de este proyecto que NO quieres subir
+README.md.docx
+
+# Carpetas de otros proyectos que NO quieres subir
+AD-L1-1.0/
+SD-06-1_modified/
+SD-08-1 ClassesLab-Individual-1.0/
+SD-10/
+sd-l1-1.0/
+TIFC1-PF-3-3-1 BetterCalculator-Individual-1.0/
+TIFC1-PF-4-2-1 NumbersQuiz-Individual/
+
+# Archivos/carpetas comunes que generalmente NO quieres subir
+__pycache__/
+node_modules/
+*.log
+*.tmp
+.DS_Store  # Archivos de sistema de macOS
