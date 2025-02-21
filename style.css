@@ -1,0 +1,16 @@
+/* 1. Hacer que todos los h1 sean de color verde */
+h1 {
+  color: green;
+}
+
+/* 2. Definir la clase "blue" para que el texto sea azul */
+.blue {
+  color: blue;
+}
+
+/* 3. Definir el ID "red" para que el texto sea rojo */
+#red {
+  color: red;
+}
+
+  
