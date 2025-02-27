@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Título con texto alternativo para accesibilidad -->
+  <h1 id="burger-town" onclick="console.log('Alguien hizo clic en BURGER TOWN!')">Burger Town!</h1>
+  
+
+  <p>Welcome to burger town! We love BURGERS!</p>
+  <br>
+  <p>It's not just a sandwich, it's a BURGER!</p>
+
+  <!-- Aseguramos que los elementos de imagen tengan texto alternativo y título -->
+  <h2 id="burger-click" onclick="console.log('Alguien hizo clic en BURGER TOWN!')">Burger Town!</h2>
+  <h2 id="burger-title">A picture of a BURGER!</h2>
+  <img src="burger4.svg" alt="A delicious burger" title="Delicious burger image">
+
+  <p>Here is a list of BURGERS!</p>
+  <ul>
+    <li>BURGER!</li>
+    <li>BURGERS!</li>
+    <li>BURGERz!</li>
+    <li>BURGER with <span id="rice" onclick="document.getElementById('burger-title').style.color = 'red'">RICE!!</span></li>
+    <li>BURGERz with MORE RICE!!</li>
+    <li>BURGERz with Cheese and RICE!!</li>
+    <li>BURGERz but it's only RICE!!</li>
+  </ul>
+
+  <h3 id="come-burger-town" onclick="alert('ES HORA DE UNA HAMBURGUESA')">VEN A BURGER TOWN!</h3>
+
+  <h2 id="burger-image-title">A picture of a BURGER!</h2>
+  <img src="burger4.svg" alt="A delicious burger" title="Another delicious burger image">
+
+  <p>Click on <span id="rice2" onclick="document.getElementById('burger-image-title').style.color = 'red'">ARROZ!!!</span> to change the title color.</p>
+
+  <script>
+    // Aquí va el código JavaScript que ya funciona correctamente
+  </script>
+  
+  <!-- Script para mostrar el badge de Replit -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
+
